@@ -11,3 +11,8 @@ original_string = "Amazing"
 
 replicated_string = original_string*4
 print(replicated_string)
+
+# slicing 
+text = "Python is amazing!"
+sub_string = text[0:6]
+print(sub_string)
