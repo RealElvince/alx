@@ -17,3 +17,9 @@ first_char = my_string[-12]
 print("The last character",":",last_char)
 print("The second last character",":",second_char)
 print("The first character",":",first_char)
+
+# Creating new string through concatenation
+
+original_string = "Hello"
+new_string = original_string + ", World!"
+print(new_string)
