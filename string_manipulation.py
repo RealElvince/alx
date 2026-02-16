@@ -45,3 +45,11 @@ normal_string = '   This is a normal sentence.  '
 
 strip_sentence = normal_string.strip()
 print(strip_sentence)
+
+
+# replace()
+
+original_txt = 'Python is a powerful programming lanaguge.'
+
+modified_txt = original_txt.replace('Python','Java')
+print(modified_txt)
