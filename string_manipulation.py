@@ -24,7 +24,7 @@ print(substring_two)
 
 # upper() func
 
-original_one = 'Hello, World'
+original_one = 'Hello, world'
 
 upper_string = original_one.upper()
 
@@ -34,3 +34,7 @@ print(upper_string)
 
 lower_string = original_one.lower()
 print(lower_string)
+
+# capitalize() string,capitalizes first letter of  string
+capitalize_string = original_one.capitalize()
+print(capitalize_string)
