@@ -38,3 +38,10 @@ print(lower_string)
 # capitalize() string,capitalizes first letter of  string
 capitalize_string = original_one.capitalize()
 print(capitalize_string)
+
+# strip() remove leading nd trailing white spaces
+
+normal_string = '   This is a normal sentence.  '
+
+strip_sentence = normal_string.strip()
+print(strip_sentence)
