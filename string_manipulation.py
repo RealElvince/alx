@@ -29,3 +29,8 @@ original_one = 'Hello, World'
 upper_string = original_one.upper()
 
 print(upper_string)
+
+# lower() function
+
+lower_string = original_one.lower()
+print(lower_string)
