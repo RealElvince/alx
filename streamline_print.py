@@ -10,3 +10,9 @@ growth_rate = 2.5
 forest_region = 'Amazon'
 
 print('The annual growth rate of trees in the {} is {} %.'.format(forest_region,growth_rate))
+
+
+sfm_concept = 'Sustainability Forest Management'
+biodiversity_importance = 'biodiversity is importance.'
+
+print(f'{sfm_concept} is crucial for {biodiversity_importance}.')
