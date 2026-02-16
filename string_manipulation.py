@@ -20,3 +20,12 @@ print(sub_string)
 # slicing negative indexing
 substring_two = text[-7:-1]
 print(substring_two)
+
+
+# upper() func
+
+original_one = 'Hello, World'
+
+upper_string = original_one.upper()
+
+print(upper_string)
