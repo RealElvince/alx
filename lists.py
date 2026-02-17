@@ -45,5 +45,19 @@ print(sliced_names)
 # list modification
 names_copy = names.copy()
 
+# append: This adds the element passed into it as a single element to the end of the list.
 names_copy.append("Kelvin")
+print(names_copy)
+
+names_copy.append(["Moses","Rachel"])
+print(names_copy)
+
+# use of extend :This adds elements passed into it as separate elements to the end of the list.
+
+names_copy.extend(["Oliver","Meshack","Ken"])
+print(names_copy)
+
+# insert(): : This inserts an element at a specified position
+
+names_copy.insert(2,"Elijah")
 print(names_copy)
