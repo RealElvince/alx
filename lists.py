@@ -41,3 +41,9 @@ names = ["Elvis","Otieno","Toto","Malia","Nyandolo"]
 sliced_names = names[2:4]
 
 print(sliced_names)
+
+# list modification
+names_copy = names.copy()
+
+names_copy.append("Kelvin")
+print(names_copy)
