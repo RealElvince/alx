@@ -89,8 +89,11 @@ print(names_copy)
 # check memberships
 print("Elvis" in names_copy)
 
-# ordering list
-# sort() :This sorts the list in ascending order in place
+
 
 even_numbers = list(range(0,20,2))
 print(even_numbers)
+
+
+
+print(len(even_numbers))
