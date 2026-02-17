@@ -25,3 +25,7 @@ print(fruit_summer,fruit_winter)
 all_fruits = fruit_summer + fruit_winter
 
 print(all_fruits)
+
+# count how many times an element appears in a tuple
+count_of_plum = all_fruits.count("plum")
+print(count_of_plum)
