@@ -20,3 +20,8 @@ print(herbivorous_subset)
 # len()
 len_carnivorous = len(carnivorous)
 print(f"Number of animals in carnivorous is:{len_carnivorous}")
+
+# clear()
+
+all_animals.clear()
+print(all_animals)
