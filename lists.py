@@ -85,3 +85,6 @@ print(names_copy)
 
 names_copy[1] = "Mercy"
 print(names_copy)
+
+# check memberships
+print("Elvis" in names_copy)
