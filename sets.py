@@ -20,3 +20,9 @@ print(herbivorous)
 
 carnivorous.update(["Fox","Vulture"])
 print(carnivorous)
+
+# set remove() and dicard()
+
+
+carnivorous.remove("Fox")
+print(carnivorous)
