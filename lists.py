@@ -15,3 +15,8 @@ print(type(range_list))
 
 new_list = birds + range_list
 print(new_list)
+
+# copy a list using copy()
+
+range_list_copy = range_list.copy()
+print(range_list_copy)
