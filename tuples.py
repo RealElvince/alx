@@ -10,4 +10,7 @@ fruit = tree_tuple[1]
 print(fruit)
 
 # check tuple immutability
-tree_tuple[1] = "pear"
+# tree_tuple[1] = "pear"
+
+text_only = tree_tuple[1:3]
+print(text_only)
