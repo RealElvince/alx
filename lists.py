@@ -61,3 +61,10 @@ print(names_copy)
 
 names_copy.insert(2,"Elijah")
 print(names_copy)
+
+# del,remove,pop
+# del : This deletes an element or multiple elements from the list at the specified index value/s.
+
+del names_copy[1]
+del names_copy[2:5]
+print(names_copy)
