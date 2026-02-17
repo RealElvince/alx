@@ -6,3 +6,7 @@ print(birds)
 
 range_list = list(range(0,5))
 print(range_list)
+
+# list type
+print(type(birds))
+print(type(range_list))
