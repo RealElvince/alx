@@ -12,3 +12,7 @@ print(intersect_animals)
 
 carnivorous_only = carnivorous.difference(herbivorous)
 print(carnivorous_only)
+
+# issubet() 
+herbivorous_subset = herbivorous.issubset(all_animals)
+print(herbivorous_subset)
