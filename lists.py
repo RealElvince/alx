@@ -68,3 +68,11 @@ print(names_copy)
 del names_copy[1]
 del names_copy[2:5]
 print(names_copy)
+
+
+# remove(): This removes the first occurrence of a specified value from the list.
+
+names_copy.remove("Kelvin")
+print(names_copy)
+
+# 
