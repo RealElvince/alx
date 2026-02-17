@@ -75,4 +75,7 @@ print(names_copy)
 names_copy.remove("Kelvin")
 print(names_copy)
 
-# 
+# pop(): This removes and returns the element at the specified index
+
+names_copy.pop(2)
+print(names_copy)
