@@ -10,3 +10,8 @@ print(range_list)
 # list type
 print(type(birds))
 print(type(range_list))
+
+# concat two lists 
+
+new_list = birds + range_list
+print(new_list)
