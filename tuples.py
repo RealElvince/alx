@@ -29,3 +29,11 @@ print(all_fruits)
 # count how many times an element appears in a tuple
 count_of_plum = all_fruits.count("plum")
 print(count_of_plum)
+
+
+# tuple unpacking
+
+combine_info = ("yellow",5,"lemon")
+color, age , tree_type = combine_info
+
+print(color,age,tree_type)
