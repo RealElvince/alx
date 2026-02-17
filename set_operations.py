@@ -7,3 +7,8 @@ print(all_animals)
 # set intersection
 intersect_animals = carnivorous.intersection(herbivorous)
 print(intersect_animals)
+
+# set difference
+
+carnivorous_only = carnivorous.difference(herbivorous)
+print(carnivorous_only)
