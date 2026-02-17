@@ -32,3 +32,12 @@ print(animal_grouped)
 
 second_mammal = animal_grouped[0][1]
 print(second_mammal)
+
+
+# slicing list from 2nd to 3rd index
+
+names = ["Elvis","Otieno","Toto","Malia","Nyandolo"]
+
+sliced_names = names[2:4]
+
+print(sliced_names)
