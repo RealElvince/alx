@@ -8,3 +8,6 @@ print(len(tree_tuple))
 fruit = tree_tuple[1]
 
 print(fruit)
+
+# check tuple immutability
+tree_tuple[1] = "pear"
