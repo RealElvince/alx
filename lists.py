@@ -77,5 +77,11 @@ print(names_copy)
 
 # pop(): This removes and returns the element at the specified index
 
-names_copy.pop(2)
+pop_names = names_copy.pop(2)
+print(pop_names)
+print(names_copy)
+
+# change value of an element at given index
+
+names_copy[1] = "Mercy"
 print(names_copy)
