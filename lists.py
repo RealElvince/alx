@@ -20,3 +20,15 @@ print(new_list)
 
 range_list_copy = range_list.copy()
 print(range_list_copy)
+
+mammals = list(("Elephant","Lion","Dolphin"))
+
+# nested lists
+
+animal_grouped = [mammals,birds]
+print(animal_grouped)
+
+# access second mammal
+
+second_mammal = animal_grouped[0][1]
+print(second_mammal)
