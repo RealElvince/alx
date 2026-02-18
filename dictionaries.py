@@ -13,3 +13,8 @@ extra_dictionary = {"second_key":"second_value","third_key":"third_value"}
 first_dictionary.update(extra_dictionary)
 
 print(first_dictionary)
+
+# remove key value pair from a dictionary
+del first_dictionary['third_key']
+
+print(first_dictionary)
