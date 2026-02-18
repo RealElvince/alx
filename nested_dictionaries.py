@@ -31,3 +31,8 @@ print(key_list)
 
 value_list = list(protea_species.values())
 print(value_list)
+
+# We can also extract the combined key-value pairs in tuples by using the items() method.
+
+item_list = list(protea_species.items())
+print(item_list)
