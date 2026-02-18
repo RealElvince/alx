@@ -18,3 +18,8 @@ print(first_dictionary)
 del first_dictionary['third_key']
 
 print(first_dictionary)
+
+# create dictionary with dict() fucntion
+
+second_dictionary = dict(first_key="first_key",second_key="second_value",extra_key="extra_value")
+print(second_dictionary)
