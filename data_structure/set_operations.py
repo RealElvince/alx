@@ -1,4 +1,4 @@
-from sets import carnivorous,herbivorous
+from data_structure.sets import carnivorous,herbivorous
 
 # set union
 all_animals = carnivorous.union(herbivorous)
