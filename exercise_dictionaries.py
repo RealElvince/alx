@@ -20,3 +20,9 @@ print(tree)
 
 del tree['family']
 print(tree)
+
+# update tree type to Wild Cinamon
+
+tree['tree_type'] = 'Wild Cinamon'
+
+print(tree)
