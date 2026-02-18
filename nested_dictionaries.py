@@ -5,3 +5,13 @@ fynbo_families = {
      'Phylica':{'Cape Floristic Region':173,'Worldwide':900}
    
 }
+
+print(type(fynbo_families))
+
+print(type(fynbo_families['Erica']))
+
+# number of species from Cape Floristic Region in Protea
+
+species_in_protea = fynbo_families['Protea']['Cape Floristic Region']
+
+print("The number of species from Cape Floristic Region in Protea is {} species.".format(species_in_protea))
