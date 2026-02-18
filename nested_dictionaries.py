@@ -15,3 +15,14 @@ print(type(fynbo_families['Erica']))
 species_in_protea = fynbo_families['Protea']['Cape Floristic Region']
 
 print("The number of species from Cape Floristic Region in Protea is {} species.".format(species_in_protea))
+
+
+# protea species 
+protea_species = fynbo_families['Protea']
+
+print(protea_species)
+
+# extract keys from a dictionary using keys()
+
+key_list = list(protea_species.keys())
+print(key_list)
