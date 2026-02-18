@@ -31,3 +31,7 @@ print(tree)
 key_list = list(tree.keys())
 value_list = list(tree.values())
 print(key_list,value_list)
+
+# Extract the key-value pairs from our tree dictionary in tuples, and store the values in a single list, item_list
+item_list = list(tree.items())
+print(item_list)
