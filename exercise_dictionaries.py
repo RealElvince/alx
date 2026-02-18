@@ -8,3 +8,9 @@ tree = {
 
 age_value = tree['age']
 print(age_value)
+
+# update tree dictionary 
+
+kingdom = {'kingdom':'Plantae'}
+tree.update(kingdom)
+print(tree)
