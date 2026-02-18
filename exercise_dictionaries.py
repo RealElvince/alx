@@ -14,3 +14,9 @@ print(age_value)
 kingdom = {'kingdom':'Plantae'}
 tree.update(kingdom)
 print(tree)
+
+
+# remove family key-pair from tree dictionary
+
+del tree['family']
+print(tree)
