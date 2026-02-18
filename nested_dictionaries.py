@@ -22,7 +22,12 @@ protea_species = fynbo_families['Protea']
 
 print(protea_species)
 
-# extract keys from a dictionary using keys()
+# extract keys from a dictionary using keys() return key object
 
 key_list = list(protea_species.keys())
 print(key_list)
+
+# extract values from a dictionary using values()
+
+value_list = list(protea_species.values())
+print(value_list)
