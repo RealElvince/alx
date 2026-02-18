@@ -26,3 +26,8 @@ print(tree)
 tree['tree_type'] = 'Wild Cinamon'
 
 print(tree)
+
+#Extract the keys and values from our tree dictionary, and store the values in two separate lists, key_list and value_list.
+key_list = list(tree.keys())
+value_list = list(tree.values())
+print(key_list,value_list)
