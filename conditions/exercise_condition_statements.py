@@ -27,3 +27,21 @@ elif (500 <= rainfall <= 1000) and (200 <= population_density <= 500):
 
 else:
     print("No Scarcity")
+
+
+# Exercise 3
+
+material = "metal"
+size = "medium"
+
+if size == "large" and (material == "metal" or material == "glass"):
+    print("Special Handling")
+
+elif size == "medium" or ( size =="small" and (material == "metal" or material == "glass")):
+    print("Standard Recycling")
+
+elif size == "small" and material == "paper":
+    print("Composting")
+
+else:
+    print("Landfill")
