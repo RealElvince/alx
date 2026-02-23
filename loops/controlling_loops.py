@@ -19,3 +19,15 @@ while initial_forested_area > 500:
     years += 1
 
 print(f"Years until critical deforestation level: {years}")
+
+
+# Exercise 3 
+animals = ['Tiger', 'Blue Whale', 'African Elephant', 'Koala', 'Panda']
+endangered_animals = ['Tiger', 'Blue Whale', 'African Elephant']
+
+# Your task: Use a for loop to print out each animal's name and its endangered status
+for animal in animals:
+    if animal in endangered_animals:
+        print(f"{animal} is endangered!")
+    else:
+        print(f"{animal} is not endangered!")
