@@ -31,3 +31,19 @@ for animal in animals:
         print(f"{animal} is endangered!")
     else:
         print(f"{animal} is not endangered!")
+
+
+ocean_pollution_data = {
+    'Pacific Ocean': [3, 5, 2],  # pollution levels
+    'Atlantic Ocean': [7, 2, 4],
+    'Indian Ocean': [5, 1, 3]
+}
+
+# Exercise 4 
+# Your task: Use loops to calculate the average pollution level for each ocean and print it
+for ocean, pollution_levels in ocean_pollution_data.items():
+    total_poluttion = sum(pollution_levels)
+    average_pollution = total_poluttion/len(pollution_levels)
+
+    print(f"The average pollution level in {ocean} is {average_pollution}")
+
