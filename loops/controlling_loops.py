@@ -47,3 +47,16 @@ for ocean, pollution_levels in ocean_pollution_data.items():
 
     print(f"The average pollution level in {ocean} is {average_pollution:.2f}")
 
+# Exercise 5
+current_population = 150  # of a particular endangered species
+target_population = 500
+years = 0
+growth_rate = 1.07  # 7% annual growth due to conservation efforts
+
+# Your task: Use a while loop to calculate how many years it takes to reach the target population
+while current_population < target_population:
+    current_population *= growth_rate
+    years += 1
+
+print(f"Years to reach target population: {years}")
+
