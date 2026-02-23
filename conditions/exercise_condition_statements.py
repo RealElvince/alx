@@ -45,3 +45,13 @@ elif size == "small" and material == "paper":
 
 else:
     print("Landfill")
+
+
+
+# Exercise 4
+solar = True
+
+if not solar:
+    print("Needs Improvement")
+else:
+    print("Eco-friendly")
