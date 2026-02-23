@@ -55,3 +55,11 @@ if not solar:
     print("Needs Improvement")
 else:
     print("Eco-friendly")
+
+# Exercise 5
+deforestation_rate = 0.3
+
+if deforestation_rate > 0.1:
+    print("High Alerts")
+else:
+    pass
