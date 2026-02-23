@@ -71,3 +71,10 @@ print(squares)
 numbers = range(1, 21)
 even_numbers = [x for x in numbers if x%2 == 0] # Fill in the list comprehension
 print(even_numbers)
+
+
+# Exercise 8
+marine_animals = ['Dolphin', 'Shark', 'Turtle']
+# Desired Output: {'Dolphin': 'Aquatic', 'Shark': 'Aquatic', 'Turtle': 'Aquatic'}
+
+animal_categories = {animal: 'Aquatic' for animal in marine_animals} # Fill in the dictionary comprehension
