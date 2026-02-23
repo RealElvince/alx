@@ -18,3 +18,12 @@ for animal in animals:
     if animal == "Orangutan":
         break
     print(animal)
+
+
+# Exercise 5 : use of continue
+
+for animal in animals:
+    if animal == "Bald Eagle":
+        continue
+
+    print(animal)
