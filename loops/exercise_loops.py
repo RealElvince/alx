@@ -13,17 +13,25 @@ while i < 5:
     i += 1
 
 
-# Exercise 4 : Stop the loop once you find Orangutan in the animals list.
+# Exercise 3 : Stop the loop once you find Orangutan in the animals list.
 for animal in animals:
     if animal == "Orangutan":
         break
     print(animal)
 
 
-# Exercise 5 : use of continue
+# Exercise 4 : use of continue
 
 for animal in animals:
     if animal == "Bald Eagle":
         continue
 
     print(animal)
+
+
+# Exercise 5 : create a loop that does nothing when 'Panda' is encountered, but prints other animals.
+for animal in animals:
+    if animal == "Panda":
+        pass
+    else:
+        print(animal)
