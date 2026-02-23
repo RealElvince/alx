@@ -11,3 +11,11 @@ protected_area = True
 if deforestation_rate > 0.15:
     if protected_area:
         print("Urgent action needed in protected area due to high deforestation rate!")
+
+# if_else statements
+deforestation_alert = False
+
+if deforestation_alert:
+    print("Alert:Deforestation Detected!")
+else:
+    print("No deforestation alerts!")
