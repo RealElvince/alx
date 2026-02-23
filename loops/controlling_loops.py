@@ -78,3 +78,12 @@ marine_animals = ['Dolphin', 'Shark', 'Turtle']
 # Desired Output: {'Dolphin': 'Aquatic', 'Shark': 'Aquatic', 'Turtle': 'Aquatic'}
 
 animal_categories = {animal: 'Aquatic' for animal in marine_animals} # Fill in the dictionary comprehension
+
+# Exercise 9
+species = ['Dolphins', 'Whales', 'Sea Turtles', 'Seals']
+status = ['Endangered', 'Vulnerable', 'Endangered', 'Least Concern']
+# Desired Output: {'Dolphins': 'Endangered', 'Sea Turtles': 'Endangered'}
+number_of_species = range(len(species))
+
+endangered_species = {species[i]: status[i] for i in number_of_species if status[i]=="Endangered"} # Fill in the dictionary comprehension
+print(endangered_species)
