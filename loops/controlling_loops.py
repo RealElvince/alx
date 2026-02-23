@@ -60,3 +60,8 @@ while current_population < target_population:
 
 print(f"Years to reach target population: {years}")
 
+# Exercise 6
+numbers = range(1, 11)
+
+squares = [ number**2 for number in numbers ] # Fill in the list comprehension
+print(squares)
