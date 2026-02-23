@@ -66,6 +66,6 @@ else:
 
 
 # Exercise 6 Ternary operator
-aqi = 250
+aqi = 90
 
 print("Poor Air Quality" if aqi > 100 else "Good Air Quality")
