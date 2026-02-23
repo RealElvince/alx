@@ -63,3 +63,9 @@ if deforestation_rate > 0.1:
     print("High Alerts")
 else:
     pass
+
+
+# Exercise 6 Ternary operator
+aqi = 250
+
+print("Poor Air Quality" if aqi > 100 else "Good Air Quality")
