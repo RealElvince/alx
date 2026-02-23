@@ -65,3 +65,9 @@ numbers = range(1, 11)
 
 squares = [ number**2 for number in numbers ] # Fill in the list comprehension
 print(squares)
+
+
+# Exercise 7
+numbers = range(1, 21)
+even_numbers = [x for x in numbers if x%2 == 0] # Fill in the list comprehension
+print(even_numbers)
