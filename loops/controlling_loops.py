@@ -45,5 +45,5 @@ for ocean, pollution_levels in ocean_pollution_data.items():
     total_poluttion = sum(pollution_levels)
     average_pollution = total_poluttion/len(pollution_levels)
 
-    print(f"The average pollution level in {ocean} is {average_pollution}")
+    print(f"The average pollution level in {ocean} is {average_pollution:.2f}")
 
