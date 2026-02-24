@@ -26,3 +26,23 @@ def analyse_carbon_impact(deforested_areas, planted_trees, carbon_emission_facto
 impact_result = analyse_carbon_impact([10, 15, 8, 12, 20],[100, 1000, 25, 35, 50],30,5)
 
 print(impact_result)
+
+
+# Exercise 2
+def project_future_tree_planting(initial_planted_trees, annual_growth_rate, projection_years):
+    """
+    Project the future number of planted trees for each year (starting at 1) based on 
+    the initial planting and growth rate.
+
+    Parameters:
+    - initial_planted_trees (int): Initial number of trees planted.
+    - annual_growth_rate (float): Annual growth rate of planted trees.
+    - projection_years (int): Number of years for projection.
+
+    Returns:
+    - list: List of projected tree planting for each year.
+    """
+
+    list_of_projected_trees = [initial_planted_trees*(1+annual_growth_rate)*year for year in range(1,projection_years+1)]
+    return list_of_projected_trees
+
