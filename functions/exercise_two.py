@@ -23,4 +23,6 @@ def analyse_carbon_impact(deforested_areas, planted_trees, carbon_emission_facto
     else:
         return "Negative"
     
-analyse_carbon_impact([10, 15, 8, 12, 20],[30, 40, 25, 35, 50],30,5)
+impact_result = analyse_carbon_impact([10, 15, 8, 12, 20],[100, 1000, 25, 35, 50],30,5)
+
+print(impact_result)
