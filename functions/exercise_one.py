@@ -27,3 +27,8 @@ def acres_to_hectares(acres):
 
 acres_to_hectares(50)
 
+
+# Exercise 3
+
+average_deforested_land = sum(deforested_land)/len(deforested_land)
+print(average_deforested_land)
