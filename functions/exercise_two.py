@@ -46,3 +46,23 @@ def project_future_tree_planting(initial_planted_trees, annual_growth_rate, proj
     list_of_projected_trees = [initial_planted_trees*(1+annual_growth_rate)*year for year in range(1,projection_years+1)]
     return list_of_projected_trees
 
+
+# Exercise 3
+def calculate_region_offset_with_kwargs(region_name, **factors):
+    """
+    Calculate dynamic carbon offset for a specified region based on various factors provided as keyword arguments.
+
+    Parameters:
+    - region_name (str): Name of the region.
+    - **factors: Variable number of keyword arguments.
+
+    Returns:
+    - tuple: Region name and calculated dynamic carbon offset.
+    """
+
+    carbon_offset = sum(factors.values())/len(factors)
+    return region_name,carbon_offset
+
+
+
+calculate_region_offset_with_kwargs("Amazon",deforested_area=30,planted_trees=40,carbon_emission_factor=10)
