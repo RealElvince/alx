@@ -4,8 +4,9 @@ carbon_emission_factor = 40
 
 total_deforested_land = sum(deforested_land)
 
-print(carbon_emission_factor)
+total_carbon_emission = total_deforested_land*carbon_emission_factor
 print(total_deforested_land)
+print(total_carbon_emission)
 
 
 # Exercise 2
@@ -32,3 +33,5 @@ acres_to_hectares(50)
 
 average_deforested_land = sum(deforested_land)/len(deforested_land)
 print(average_deforested_land)
+
+# Exercise 4
