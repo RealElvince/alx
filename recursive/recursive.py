@@ -12,3 +12,4 @@ def cumulative(n):
 
 sum = cumulative(5)
 print(sum)
+
