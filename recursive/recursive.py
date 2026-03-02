@@ -10,5 +10,5 @@ def cumulative(n):
     
 
 
-sum = cumulative(1)
+sum = cumulative(5)
 print(sum)
