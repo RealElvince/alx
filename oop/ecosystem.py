@@ -17,4 +17,4 @@ class Ecosystem:
 
 ecosystem = Ecosystem("Rainforest","A rainforestis a dense forest that receives heavy rainfall throughout the year and supports a wide variety of plants and animals.",0.80)
 
-print(ecosystem)
+ecosystem.display_details()
