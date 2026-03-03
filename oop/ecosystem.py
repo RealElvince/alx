@@ -18,3 +18,7 @@ class Ecosystem:
 ecosystem = Ecosystem("Rainforest","A rainforestis a dense forest that receives heavy rainfall throughout the year and supports a wide variety of plants and animals.",0.80)
 
 ecosystem.display_details()
+ecosystem.update_ecosystem("A rainforest is a lush, tropical forest with high humidity and rich biodiversity, where tall trees form multiple layers of canopy.")
+
+print("\n Updated ecosystem description:")
+ecosystem.display_details()
