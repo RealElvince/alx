@@ -24,6 +24,7 @@ print("\n Updated ecosystem description:")
 ecosystem.display_details()
 
 
+# Inheritance
 class Forest(Ecosystem):
     def __init__(self,name,description,biodiversity_index,carbon_sequestration_rate):
         super().__init__(name,description,biodiversity_index)
@@ -55,3 +56,33 @@ forest.add_tree_species("Teak")
 # Display trees species in the forest
 print("\n Tree species in the forest:")
 forest.display_tree_species()
+
+
+# Polymorphism
+class Wildlife():
+    
+
+    def habitat(self):
+        pass
+
+
+class Mammal():
+    def habitat(self):
+        return "Mammals live in a wide range of habitats including forests, deserts, oceans, and grasslands where they can find shelter, food, and suitable conditions for survival."
+
+class Bird():
+    def habitat(self):
+      return "Birds: Birds live in habitats such as forests, wetlands, grasslands, and coastal areas where they can find food, water, and safe places to build nests."
+    
+
+mammal = Mammal()
+
+bird = Bird()
+
+# Mammal habitats
+print("Mammals live in:")
+mammal.habitat()
+
+# Birds habitat
+print("Birds live in: ")
+bird.habitat()
