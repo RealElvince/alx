@@ -92,6 +92,31 @@ print(bird.habitat())
 
 from abc import ABC
 
-class ConservationEfforts():
+class ConservationEfforts(ABC):
     def implement_effort(self):
         pass
+
+
+class Reforestation(ConservationEfforts):
+    def implement_effort(self):
+        return "Reforestation implementation: Reforestation is implemented by planting trees in deforested areas, protecting young trees, and involving communities in forest restoration programs.."
+    
+
+
+class WildlifeConversation(ConservationEfforts):
+    def implement_effort(self):
+        return "Wildlife conservation implementation: Wildlife conservation is implemented by protecting habitats, enforcing laws against poaching, and creating protected areas such as national parks and reserves."
+    
+
+
+reforestation = Reforestation()
+
+wildlifeconservation = WildlifeConversation()
+
+
+# Reforestation implementation
+print(reforestation.implement_effort())
+
+# Wildlife conservation implementation
+print(wildlifeconservation.implement_effort())
+
