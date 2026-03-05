@@ -81,8 +81,8 @@ bird = Bird()
 
 # Mammal habitats
 print("Mammals live in:")
-mammal.habitat()
+print(mammal.habitat())
 
 # Birds habitat
 print("Birds live in: ")
-bird.habitat()
+print(bird.habitat())
