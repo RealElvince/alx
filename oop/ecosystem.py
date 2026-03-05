@@ -66,11 +66,11 @@ class Wildlife():
         pass
 
 
-class Mammal():
+class Mammal(Wildlife):
     def habitat(self):
         return "Mammals live in a wide range of habitats including forests, deserts, oceans, and grasslands where they can find shelter, food, and suitable conditions for survival."
 
-class Bird():
+class Bird(Wildlife):
     def habitat(self):
       return "Birds: Birds live in habitats such as forests, wetlands, grasslands, and coastal areas where they can find food, water, and safe places to build nests."
     
@@ -86,3 +86,12 @@ print(mammal.habitat())
 # Birds habitat
 print("Birds live in: ")
 print(bird.habitat())
+
+
+# Absraction
+
+from abc import ABC
+
+class ConservationEfforts():
+    def implement_effort(self):
+        pass
