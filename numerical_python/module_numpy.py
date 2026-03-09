@@ -21,3 +21,9 @@ print(random_array)
 # numpy slicing
 top_left_element = ratings[0,0]
 print(top_left_element)
+
+# Select the first row.
+first_row = ratings[0,:]
+
+print(first_row)
+
