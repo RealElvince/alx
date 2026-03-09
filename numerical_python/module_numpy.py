@@ -16,3 +16,8 @@ print(array_ones)
 random_array = np.random.random((3, 3))
 
 print(random_array)
+
+
+# numpy slicing
+top_left_element = ratings[0,0]
+print(top_left_element)
