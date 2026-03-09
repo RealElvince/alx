@@ -10,3 +10,5 @@ df = {
 
 crop_df = pd.DataFrame(data=df)
 print(crop_df)
+
+print(crop_df.iloc[1:3])
