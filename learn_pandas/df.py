@@ -44,6 +44,11 @@ Critically_endangered = animals_df[animals_df['Conservation Status'] == 'Critica
 print(Critically_endangered)
 
 
-# vulnerable species
+# endangered species
 endangered = animals_df[animals_df['Conservation Status'] == 'Endangered']
 print(endangered)
+
+
+# vulnerable species
+vulnerable = animals_df[animals_df['Conservation Status'] == 'Vulnerable']
+print(vulnerable)
