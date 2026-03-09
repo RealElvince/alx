@@ -27,3 +27,7 @@ first_row = ratings[0,:]
 
 print(first_row)
 
+# Select the first column.
+first_column = ratings[:, 0]
+
+print(first_column)
