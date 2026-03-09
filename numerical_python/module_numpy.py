@@ -11,3 +11,8 @@ print(ratings.shape)
 array_ones = np.ones((2,2))
 
 print(array_ones)
+
+# Create an array of random values – pass in shape as a tuple.
+random_array = np.random.random((3, 3))
+
+print(random_array)
