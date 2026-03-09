@@ -35,3 +35,8 @@ print(first_column)
 second_column = ratings[:,1]
 
 print(second_column)
+
+# access 48 in array
+
+element_48 = ratings[1,2]
+print(element_48)
