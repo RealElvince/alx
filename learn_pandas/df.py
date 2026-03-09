@@ -24,3 +24,7 @@ index = ["Maple", "Pine","Birch"]
 tree_df = pd.DataFrame(data=tree_array,columns=columns,index=index)
 
 print(tree_df)
+
+
+pine_data = tree_df.loc['Pine'][['Max_Height_m', 'Growth_Rate_cm_per_year']]
+print(pine_data)
