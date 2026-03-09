@@ -50,3 +50,8 @@ print(first_two_first_two)
 
 result = ratings[ratings > 90]
 print(result)
+
+# Append an extra row – note that axis=0.
+ratings_extra_row = np.append(ratings, [[92, 88, 78, 55]], axis=0)
+
+print(ratings_extra_row)
