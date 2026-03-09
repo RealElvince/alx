@@ -40,3 +40,13 @@ print(second_column)
 
 element_48 = ratings[1,2]
 print(element_48)
+
+# Select the first two rows and first two columns.
+first_two_first_two = ratings[0:2, 0:2]
+print(first_two_first_two)
+
+
+# select all values greater 90
+
+result = ratings[ratings > 90]
+print(result)
