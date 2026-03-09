@@ -31,3 +31,7 @@ print(first_row)
 first_column = ratings[:, 0]
 
 print(first_column)
+
+second_column = ratings[:,1]
+
+print(second_column)
